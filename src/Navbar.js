@@ -7,8 +7,8 @@ import logo from './images/ima.jpg';
 function Navbar() {
   return (
     <div>
-      <nav className="flex items-center justify-between bg-orange-500 px-4 h-16 border-b border-gray-200">
-        <div className="h-8 w-8 sm:h-10 sm:w-10 md:h-12 md:w-12 border rounded-md">
+      <nav className="flex items-center justify-between bg-orange-500 px-4 h-16 border-b">
+        <div className="h-8 w-8 sm:h-10 sm:w-10 md:h-12 md:w-12 border border-black ">
           <img src={logo} alt="Logo" className="h-full w-full object-contain" />
         </div>
 
