@@ -121,7 +121,7 @@ const App = () => {
           onEdit={startEdit}
         />
       </div>
-    </>
+    </div>
   );
 };
 
